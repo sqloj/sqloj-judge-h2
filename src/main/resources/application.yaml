@@ -9,6 +9,11 @@ spring:
     url: 'jdbc:h2:mem:test'
     username: ${SQLOJ_DB_USER:root}
     password: ${SQLOJ_DB_PASSWORD:sy123456}
+  sql:
+    init:
+      encoding: utf-8
+
+
 
 mybatis:
 #  mapper-locations: classpath:mapping/*Mapping.xml
